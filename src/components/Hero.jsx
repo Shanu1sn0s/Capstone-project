@@ -68,7 +68,7 @@ const Hero = () => {
           {/* bg image */}
           <div className="">
             <img
-              className="z-[-1] relative left-[-750px] top-[-70px]"
+              className="z-[-1] w-[410px] h-[400px] mt-40 relative left-[-750px] top-[-70px]"
               src={Back}
               alt=""
             />
@@ -77,9 +77,18 @@ const Hero = () => {
         {/* card and bg image end */}
         {/* buttom image */}
         <div className="w-[900px] flex justify-center text-center m-auto">
-          <img src={Base} alt="" />
+          <img className="relative" src={Base} alt="" />
+          <img className="absolute -z-20" src={CircleBG} alt="" />
         </div>
         {/* buttom image end */}
+      </div>
+      {/* one stop section */}
+      <div className='w-full h-[200px] absolute top-[186%] grid grid-cols-5 justify-center items-center  text-center border border-blue-600 py-12 px-17'>
+      <div className="bg-red-500 h-full">1</div>
+      <div className="bg-blue-300">2</div>
+      <div className="bg-blue-500">3</div>
+      <div className="bg-red-300">4</div>
+      <div className="bg-zinc-700">5</div>
       </div>
     </div>
   );
