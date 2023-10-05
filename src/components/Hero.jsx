@@ -38,8 +38,8 @@ const Hero = () => {
         </p>
         {/* button div */}
         <div className="flex gap-7">
-          <button className="px-7">Sign Up</button>
-          <button className="bg-transparent text-blue-600 border-none">
+          <button className="px-7  ease-in duration-300">Sign Up</button>
+          <button className="bg-transparent ease-in duration-300 text-blue-600 border-none">
             Learn more
           </button>
         </div>

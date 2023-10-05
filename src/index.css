@@ -18,4 +18,10 @@
   button:hover{
     @apply bg-transparent border-blue-600 text-blue-600
   }
+  
+}
+@layer base{
+  body{
+    transition: ease-in-out ;
+  }
 }

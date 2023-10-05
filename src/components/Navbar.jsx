@@ -2,6 +2,7 @@ import React,{useState} from "react";
 import Logo from "../assets/Logo.png";
 import Line from "../assets/Logo line.png";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import {Link}from "react-router-dom"
 
 
 const Navbar = () => {
@@ -19,18 +20,18 @@ const handleClick =() => setNav(!nav)
             Scissor
           </h1>
 
-          <ul className="hidden md:flex space-x-20  pl-[40px] ml-[200px] mr-[-200px] font-[600] text-lg">
-            <li className="text-blue-600">My Url</li>
-            <li>Features</li>
-            <li>Pricing</li>
-            <li>FAQs</li>
+          <ul className="hidden md:flex space-x-20  pl-[40px] ml-[200px] mr-[-200px] ease-in-out duration-300 font-[600] text-lg">
+            <li className="text-blue-600 ">My Url</li>
+            <li className="ease-in-out duration-300">Features</li>
+            <li className="ease-in-out duration-300">Pricing</li>
+            <li className="ease-in-out duration-300">FAQs</li>
           </ul>
         </div>
         <div className="hidden md:flex pr-4 gap-3">
-          <button className=" border-none bg-transparent text-blue-600 hover:border-none duration-300">
-            Log in
+          <button className=" border-none bg-transparent text-blue-600  duration-300 hover:border-none ">
+           <Link to="/login"> Log in</Link>
           </button>
-          <button>Try for Free</button>
+          <button className="ease-in-out duration-300">Try for Free</button>
         </div>
       <div className="md:hidden md:mr-[500px] duration-300" onClick={handleClick}>
       {!nav ?<MenuIcon className=" mr-5 h-8 w-8 text-blue-600"  />
