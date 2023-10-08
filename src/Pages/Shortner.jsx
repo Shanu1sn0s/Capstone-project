@@ -19,7 +19,7 @@ function Shortner() {
     <div>
       <div className="grid my-10 justify-center gap-10">
         <h1 className="font-bold text-3xl">Shortener</h1>
-        <p className="font-bold text-1xl float-right">Welcome, {user?.displayName}</p>
+        <p className="font-bold text-1xl">Welcome, {user?.displayName}</p>
 
         {user?.displayName ? (
           <button onClick={handleSignOut} className="boreder rounded-none">Logout</button>

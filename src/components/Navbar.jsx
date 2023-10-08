@@ -47,7 +47,7 @@ const handleClick =() => setNav(!nav)
   <li className="border-white w-full hover:bg-gray-300 hover:text-blue-600 rounded-[40px] ease-in-out duration-300">FAQs</li>
 <div className="flex flex-col my-4">
 <button className="bg-white hover:text-white text-blue-600 px-8 py-3 mb-4">
-Log in
+<Link to ='/login'>Log in</Link>
 </button>
 <button className="px-8 py-3 border-white hover:text-white">
 Try for Free
