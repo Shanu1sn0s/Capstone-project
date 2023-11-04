@@ -10,7 +10,7 @@ import { getAuth } from "firebase/auth";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyBSeIk5Z6x3LlJblTHoup1ipcK-h-6W_3A",
-  authDomain: `"scissor-auth.firebaseapp.com", "https://ola-cap-stone.netlify.app"` ,
+  authDomain: "scissor-auth.firebaseapp.com",
   projectId: "scissor-auth",
   storageBucket: "scissor-auth.appspot.com",
   messagingSenderId: "1006923931629",

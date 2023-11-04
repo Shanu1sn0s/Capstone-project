@@ -22,7 +22,7 @@ const Base = () => {
         {/* top bg images ends here*/}
 
         {/* Write up */}
-        <div className="grid justify-center m-auto absolute top-[90px] left-[430px] ">
+        <div className="grid justify-center mx-auto text-center absolute top-[90px] left-[430px] ">
           <h1 className=" font-bold text-3xl mb-20 text-white text-center">
             Revolutionizing Link Optimization
           </h1>

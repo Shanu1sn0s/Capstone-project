@@ -50,7 +50,7 @@ const handleClick =() => setNav(!nav)
 <Link to ='/login'>Log in</Link>
 </button>
 <button className="px-8 py-3 border-white hover:text-white">
-Try for Free
+<Link to ='/login'>Try for free</Link>
 </button>
 </div>
   
